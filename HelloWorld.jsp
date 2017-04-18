@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-<body background="./images/v1.jpg">
+<body background="./images/v3.jpg">
 <pre><font  size="5">稼働環境：<font color="#0000ff"><b><%=System.getProperty("jboss.server.name") %></b></font></font></pre>
 <pre><font size="5">IP Address:<font color="#0000ff"><b>
 <%
@@ -15,6 +15,6 @@ String localAddress = in.getHostAddress();
 out.println(localAddress);
 %>
 </b></font></font></pre>
-<pre><font size="7">Hello World! --- Ver1.0</font></pre>
+<pre><font size="7">Hello World! --- Ver3.0</font></pre>
 </body>
 </html>
